@@ -1,0 +1,22 @@
+{
+  "name": "PokeGo-Dex",
+  "version": "1.0.0",
+  "description": "Index of the Pokemon that I catch in PokemonGO",
+  "main": "index.html",
+  "scripts": {
+    "start": "node_modules/http-server/bin/http-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lilbeartr/PokeGO-Dex.git"
+  },
+  "author": "Tanawat Tassana",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lilbeartr/PokeGO-Dex/issues"
+  },
+  "homepage": "https://github.com/lilbeartr/PokeGO-Dex#readme",
+  "devDependencies": {
+    "http-server": "^0.9.0"
+  }
+}
