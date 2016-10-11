@@ -25,7 +25,6 @@ var config = {
         historyApiFallback: true,
         inline: true
     }
-
 };
 
 module.exports = config;
