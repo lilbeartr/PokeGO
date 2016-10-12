@@ -7,8 +7,8 @@ console.log(sayHi(name))
 
 
 import axios from 'axios'
-const civilUrl = 'http://www.omdbapi.com/?t=captain+america+civil+war&y=&plot=short&r=json'
-axios.get(civilUrl)
+const pokeUrl = 'http://pokeapi.co/api/v2/pokemon-form/12/'
+axios.get(pokeUrl)
 .then(response => {
-        console.log(response.data.Title)
+        console.log(response.data.name)
     })
