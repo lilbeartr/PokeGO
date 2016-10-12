@@ -7,7 +7,7 @@ console.log(sayHi(name))
 
 
 import axios from 'axios'
-const pokeUrl = 'http://pokeapi.co/api/v2/pokemon-form/12/'
+const pokeUrl = 'http://pokeapi.co/api/v2/pokemon/'
 axios.get(pokeUrl)
 .then(response => {
         console.log(response.data.name)
